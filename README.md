@@ -1,9 +1,9 @@
-## hello-rails-front-end
+## hello-react-front-end
 
-> Created to learn how React and Rails work separately.  This is an API backend part of the project.
+> Created to learn how React and Rails work separately.  This is frontend part of the project.
 
 ## Backend
-The frontend part of this project: [hello-react-front-end](https://github.com/HSMathebula/hello-rails-back-end)
+The backend part of this project: [hello-rails-back-end](https://github.com/HSMathebula/hello-rails-back-end)
 
 ## Built With
 
@@ -14,9 +14,9 @@ The frontend part of this project: [hello-react-front-end](https://github.com/HS
 
 To get a local copy up and running follow these simple example steps.
 
-1. git clone https://github.com/huseyinbiyik/helllo-rails-front-end.git <br>
+1. `git clone https://github.com/HSMathebula/hello-react-front-end.git` <br>
 2. cd hello-rails-front-end. <br>
-3. Run npm install.
+3. Run `npm install`.
 4. run `npm start` for the live server. <br>
 
 ### Prerequisites
