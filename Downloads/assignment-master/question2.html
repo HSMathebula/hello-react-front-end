@@ -14,11 +14,17 @@
     </div>
     <h1>Question 2</h1>
 
+    <p>Question 2.1</p>
+
     <form action="">
         <label for="date">When was this website updated? :</label>
         <input type="date" name="date" id="date">
         <input type="button" id="getDate" value="Send Update Date">
     </form>
+
+    <p>Question 2.2</p>
+    <div id="q2"></div>
+
     <script>
 
         let field = document.querySelector('#date');
@@ -63,6 +69,17 @@
         });
 
     // question 2.2
+
+        let str = 'i love javascript programming with all my heart';
+        let result = str.toUpperCase();
+        let div = document.getElementById("q2");
+
+        for(let i=1; i<=5; i++) {
+            p = document.createElement('p');
+            p.innerHTML = result;
+            div.appendChild(p);
+        }
+
     </script>
 </body>
 </html>
